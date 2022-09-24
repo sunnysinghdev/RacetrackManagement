@@ -1,3 +1,12 @@
+bin
+obj
+.vscode
+.config
+GeekTrust/geektrust/
+TestResults
+coveragereport
+
+
 # Logs
 logs
 *.log
