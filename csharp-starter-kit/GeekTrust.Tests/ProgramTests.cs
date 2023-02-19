@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GeekTrust.Tests
 {
-    public class ProgramTests
+    public class TestCase1
     {
         [SetUp]
         public void Test_Case_1_Init()
@@ -42,7 +42,7 @@ namespace GeekTrust.Tests
         }
     }
 
-    public class Programests2
+    public class TestCase2
     {
         [SetUp]
         public void Test_Case_2_Init()
@@ -117,7 +117,6 @@ namespace GeekTrust.Tests
             foreach (var cmd in commands)
             {
                 Command c = CommandFactory.Get(cmd);
-                Console.WriteLine(cmd + " " + expected[i]);
                 Assert.AreEqual(expected[i], c.Execute());
                 i++;
             }

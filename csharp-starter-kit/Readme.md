@@ -73,17 +73,8 @@ To execute the test cases we run the command
 
 For calculating the coverage we run the command
 
-Make sure this is installed for collector
-
-```
-<PackageReference Include="coverlet.collector" Version="1.0.1" />
-```
 `dotnet test --collect="XPlat Code Coverage"`
-### Generate Test Report
-Install report generator tool
-`dotnet tool install -g dotnet-reportgenerator-globaltool`
-Generate Report Command
-`reportgenerator -reports:"TestResults\75ad8422-4702-4c31-8f34-531fd2b99be1\coverage.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html`
+
 # Help
 
 You can refer our help documents [here](https://help.geektrust.com)
