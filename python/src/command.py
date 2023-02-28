@@ -1,7 +1,8 @@
 from datetime import timedelta
 from src.literals import Literals
+from src.race_track_manager import RaceTrackManager
 from src.utility import Utility
-from src.vehicle_types import RaceTrackManager, VehicleFactory
+from src.vehicle_types import VehicleFactory
 
 
 class CommandFactory:
